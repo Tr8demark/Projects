@@ -1,0 +1,7 @@
+Project Ideas:
+
+##Terminal Calculator - Done
+UI Calculator
+Python + SQL + JS: Password Manager
+Python: Webscraper
+USB HAM Radio Firmware: Assembly

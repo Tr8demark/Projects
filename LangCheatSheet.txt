@@ -1,0 +1,21 @@
+Questions:
+    - Does the language have proper ecosystem support? Is it going to work for the long haul? Is vendor support available for the language?
+    - What is the environment for the project (web, mobile, etc)?
+    - Do we need to consider some infrastructure such as new hardware? What kind of deployment do we need?
+    - What’s the preference of the client?
+    - Any specific requirements for libraries, features, and tools for the programming language?
+    - Is the developer available to code in this language or do we need to hire new developers? Are they experienced and comfortable in working with this language, or do they need to learn the language quickly?
+    - What are some important constraints of this project? Time, budget, resources?
+    - What’s the performance consideration and is the languages suitable to accommodate this performance?
+    - What’s the security consideration and do we need to use any third-party tool?
+
+General Uses for Languages:
+    Front End Development: JavaScript, HTML, and CSS
+    Backend Development: Python, C#, or JavaScript
+    2D Game Development: JavaScript or C#
+    3D Game Development: C# or C++
+    Data Science/Machine Learning/Analytics: Python, R, Clojure, Julia
+    Math & Scientific Computing: Matlab, FORTRAN, ALGOL, APL, Julia, R, C++
+    Big Data: Java, Python, R, Scala, Clojure
+    Operating Systems: C, C++
+    Distributed System: C, Go, Rust
