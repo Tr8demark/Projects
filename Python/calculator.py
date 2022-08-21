@@ -1,6 +1,5 @@
 import math
 from os import wait
-import time
 
 ##With Dictionary
 print("""
