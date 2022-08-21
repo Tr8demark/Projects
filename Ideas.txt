@@ -1,7 +1,8 @@
 Project Ideas:
 
 ##Terminal Calculator - Done
-UI Calculator
+UI Calculator - Python w/ imported module PySimpleGUI
 Python + SQL + JS: Password Manager
 Python: Webscraper
 USB HAM Radio Firmware: Assembly
+Background program that performs randomized actions on a computer (haunted computer): bash script
