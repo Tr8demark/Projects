@@ -8,13 +8,11 @@ print("""
 3. multi
 4. div
 """)
-#Modify code to allow for either an integer or a string input -- DONE
-#Add in error handling for invalid inputs -- DONE
 
 inputs = input("What function are you needing to perform? ")
 inputs = inputs.lower()
 
-### Defining unneccessary functions
+### Defining, unneccessary, functions
 def add(f_num, s_num):
     __doc__ = "Sum two numbers"
     return f_num + s_num
