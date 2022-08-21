@@ -1,4 +1,6 @@
 import math
+from os import wait
+import time
 
 ##With Dictionary
 print("""
@@ -7,15 +9,15 @@ print("""
 3. multi
 4. div
 """)
-#Modify code to allow for either an integer or a string input.
-#Add in error handling for invalid inputs. 
+#Modify code to allow for either an integer or a string input -- DONE
+#Add in error handling for invalid inputs -- DONE
 
 inputs = input("What function are you needing to perform? ")
 inputs = inputs.lower()
 
-### Defining functions
+### Defining unneccessary functions
 def add(f_num, s_num):
-    __doc__ = "Add two numbers"
+    __doc__ = "Sum two numbers"
     return f_num + s_num
 def sub(f_num, s_num):
     __doc__ = "Subtract two numbers"
@@ -27,31 +29,32 @@ def div(f_num, s_num):
     __doc__ = "Divide two numbers showing only a whole number"
     return f_num // s_num
 
-if inputs == "add" or "sub" or "multi" or "div":
-    
-    f_num = int(input("First number: "))
-    s_num = int(input("Second number: "))
-
-    mathChoices = {
-        "add": add(f_num, s_num),
-        "sub": sub(f_num, s_num),
-        "multi": multi(f_num, s_num),
-        "div": div(f_num, s_num)
-    }
-    print(mathChoices[inputs])
-
-elif inputs ==  1 or 2 or 3 or 4:
+if inputs == "1" or inputs == "2" or inputs == "3" or inputs == "4":
+    wait(2)
     inputs = int(inputs)
     f_num = int(input("First number: "))
     s_num = int(input("Second number: "))
 
     mathChoices = {
+        1: add(f_num, s_num),
+        2: sub(f_num, s_num),
+        3: multi(f_num, s_num),
+        4: div(f_num, s_num)
+    }
+
+    print(mathChoices[inputs])
+elif inputs == "add" or inputs == "sub" or inputs == "multi" or inputs == "div":
+    wait(2)
+    f_num = int(input("First number: "))
+    s_num = int(input("Second number: "))
+
+    mathChoices = {
         "add": add(f_num, s_num),
         "sub": sub(f_num, s_num),
         "multi": multi(f_num, s_num),
         "div": div(f_num, s_num)
     }
-
     print(mathChoices[inputs])
 else:
-    print("You have not provided a valid input, please run the program, again.")
+    wait(5)
+    print("\nYou have not provided a valid input, please run the program, again and enter the name of the function or its associated number.")
