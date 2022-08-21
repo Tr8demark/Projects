@@ -3,7 +3,7 @@ import math
 """
 PseudoCode:
     If interactive (with UI):
-        Buttons laid out in same stype as 10-key on keyboard.
+        Buttons laid out in same style as 10-key on keyboard.
     If terminal-only:
         Request how many inputs it will need.
         Request what function they are needing between each input.
@@ -63,7 +63,8 @@ print("""
 3. multi
 4. div
 """)
-#Modify code to allow for either an integer or a string.
+#Modify code to allow for either an integer or a string input.
+#Add in error handling for invalid inputs. 
 
 inputs = input("What function are you needing to perform? ")
 inputs = inputs.lower
