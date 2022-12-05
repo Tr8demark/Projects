@@ -1,5 +1,5 @@
 import math
-from os import wait
+from os import waitstatus_to_exitcode as wait
 
 ##With Dictionary
 print("""
