@@ -1,5 +1,9 @@
 import math
+<<<<<<< HEAD
 from os import waitstatus_to_exitcode as wait
+=======
+from os import waitstatus_to_exitcode as wait5
+>>>>>>> a74d79bd66f7b8ba4acfd91409ba6881fd08f3e0
 
 ##With Dictionary
 print("""
